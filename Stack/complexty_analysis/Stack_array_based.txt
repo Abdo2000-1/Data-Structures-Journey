@@ -1,0 +1,15 @@
+Time Complexity:
+
+
+push    --> O(1) 
+Pop     --> O(1) 
+isEmpty --> O(1) 
+isFull  --> O(1) 
+Display --> O(n) 
+push    --> O(1) 
+
+
+Space Complexity:
+
+Total Space --> O(n)
+n is the size 
