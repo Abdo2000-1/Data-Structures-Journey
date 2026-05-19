@@ -1,0 +1,15 @@
+Time Complexity:
+
+
+enqueu     --> O(1) 
+dequeu     --> O(1) 
+isEmpty    --> O(1) 
+push       --> O(1) 
+Display    --> O(n) 
+Destructor --> O(n)
+
+
+Space Complexity:
+
+Total Space --> O(n)
+n is the number of elements pushed 
