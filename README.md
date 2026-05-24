@@ -17,6 +17,11 @@ This repository documents my journey learning Data Structures and Algorithms usi
 - [ ] Hash Table
 - [ ] Graphs
 
+## 📚 Study Resource & Credits
+This repository serves as my hands-on implementation lab while following the premium **Data Structures and Algorithms** course by **Dr. Mostafa Saad Ibrahim** (part of the **C-Skilled** series). 
+
+While the course provides the structured roadmap, foundational concepts, and problem sheets, **every line of code and algorithm here is written and structured independently step-by-step**, focusing on personal understanding, active learning, and building my own implementation logic.
+
 ## Goals
 - Master core DSA concepts
 - Improve problem-solving skills
@@ -38,7 +43,6 @@ This table tracks the data structures I am implementing from scratch. Each one i
 | **Doubly Linked List** | A linked list where each node contains pointers to both the next and the previous node. |
 | **Stack** | A LIFO (Last In, First Out) structure, implemented using both Arrays and Linked Lists. |
 | **Queue** | A FIFO (First In, First Out) structure, including Circular and Priority Queues. |
-| **Hash Table** | A structure that maps keys to values using a hash function for $O(1)$ average access. |
 | **Binary Tree** | A hierarchical structure where each node has at most two children. |
 | **Binary Search Tree (BST)** | A binary tree where the left child is smaller and the right child is larger than the parent. |
 | **AVL Tree** | A self-balancing Binary Search Tree where the heights of two child subtrees differ by at most one. |
