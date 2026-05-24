@@ -2,7 +2,7 @@
 #include <iostream>
 #include <vector>
 #include <cassert> 
-
+// Linked List Without neither tail nor length 
 using namespace std;
 
 struct Node {
@@ -12,7 +12,6 @@ struct Node {
     Node(int value) : data(value), next(nullptr) {}
 };
 
-// Linked List Without neither tail nor length 
 
 class LinkedList {
 private:

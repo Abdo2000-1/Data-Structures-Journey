@@ -31,7 +31,7 @@ While the course provides the structured roadmap, foundational concepts, and pro
 - C++
 
 
-## 📅 Roadmap & Implementation Tracker
+## 📅  Implementation Tracker
 
 This table tracks the data structures I am implementing from scratch. Each one includes its source code, complexity analysis, and practical applications.
 
