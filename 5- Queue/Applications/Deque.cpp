@@ -6,7 +6,7 @@
     using namespace std;
 
 
-    // Circular array-based Queue implementation;
+    // Circular array-based Deque implementation;
 
     class Deque {
 
