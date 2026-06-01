@@ -10,11 +10,11 @@ This repository documents my journey learning Data Structures and Algorithms usi
 - [x] Doubly Linked List
 - [x] Stack
 - [x] Queue
-- [ ] Binary Tree
-- [ ] Binary Search Tree
-- [ ] AVL Tree
+- [x] Binary Tree
+- [x] Binary Search Tree
+- [x] AVL Tree
+- [x] Heap
 - [ ] Trie
-- [ ] Hash Table
 - [ ] Graphs
 
 ## 📚 Study Resource & Credits
