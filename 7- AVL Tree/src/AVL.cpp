@@ -246,10 +246,26 @@ public:
         bfs(root);
     }
 
+
+    ~AVL() {
+        // Post-order traversal to delete all nodes
+        queue<Node*> q;
+        if (root) q.push(root);
+
+        while (!q.empty()) {
+            Node* u = q.front();
+            q.pop();
+
+            if (u->left) q.push(u->left);
+            if (u->right) q.push(u->right);
+
+            delete u;
+        }
+    }
+
 };
 
-int main() 
-{
+int main() {
     AVL tree;
 
     cout << "--- Inserting elements that would cause imbalance in normal BST ---\n";

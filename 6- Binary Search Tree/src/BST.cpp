@@ -271,6 +271,22 @@ public:
 
    void bfs() { bfs(root); cout << "\n"; }
 
+   ~BST() {
+         // Post-Order Deletion to free memory
+         queue<Node*> q;
+         if (root) q.push(root);
+    
+         while (!q.empty()) {
+              Node* u = q.front();
+              q.pop();
+    
+              if (u->left) q.push(u->left);
+              if (u->right) q.push(u->right);
+    
+              delete u;
+         }
+   }
+
 };
 
 int main() 
